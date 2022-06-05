@@ -1,0 +1,19 @@
+body{
+    background-color:#F3F3FB;
+    min-height:100vh;
+    display:grid;
+    place-content:center;
+    padding:2em;
+  }
+  
+  input::placeholder{
+    color:#374151;
+  }
+  input:focus{
+   outline:none;
+  }
+  
+  span{
+    width:73px;
+    height:7px;
+  }

@@ -1,0 +1,99 @@
+.homecss{
+   
+    background-color: red;
+    align-items: center;
+    
+} 
+.figure {
+    display: flex;
+    align-content: center;
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+.mda {
+    width: 100%;
+    height: auto;
+}
+
+
+.cards{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, p{
+    color:#fff;
+
+}
+
+.nameP{
+    color: #737373;
+}
+
+.profils {
+    display: flex;
+    justify-content: center;
+    column-gap: 100;
+}
+
+.profil img {
+    border: 2px solid transparent;
+    width: 1%;
+}
+
+.profil img, 
+.profil p {
+    transition: all .3s;
+    width: 100%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.content{
+    position: relative;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    z-index:2;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin-top:4rem;
+}
+
+
+.profil:hover img{
+    border: 2px solid white;
+}
+
+.profil:hover p{
+   color: white;
+   text-shadow: -.25px -.25px 0 white, 
+                .25px .25px white;
+}
+
+.profil a {
+    text-decoration: none;
+}
+
+.profils .btn {
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: #808080;
+    transition: all.3s;
+    -webkit-transition: all.3s;
+    -moz-transition: all.3s;
+    -ms-transition: all.3s;
+    -o-transition: all.3s;
+}
+
+.profils:hover .btn{
+    border: 1px solid white;
+    color: white;
+    text-shadow: -.25px -.25px 0 white, 
+    .25px .25px white;
+}

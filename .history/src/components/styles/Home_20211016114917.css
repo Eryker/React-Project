@@ -1,0 +1,57 @@
+.homecss{
+   
+    background-color: red;
+    align-items: center;
+    
+} 
+.figure {
+    display: flex;
+    align-content: center;
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+.mda {
+    width: 100%;
+    height: auto;
+}
+
+
+.cards{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, p {
+    color:#fff;
+
+}
+
+
+.profils {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.profil img {
+    width: 100%;
+}
+
+.content{
+    position: relative;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    z-index:2;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin-top:4rem;
+}
+
+
+.profil:hover img{
+    border: 2px solid white;
+}
